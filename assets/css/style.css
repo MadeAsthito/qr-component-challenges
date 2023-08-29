@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/* ============== CHALLANGES ============== */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* ============== CHALLANGES ============== */
+
+
+/* ============== MAIN ============== */
+
+:root {
+    --color-white: hsl(0, 0%, 100%);
+    --color-light-gray: hsl(212, 45%, 89%);
+    --color-grayish-blue: hsl(220, 15%, 55%);
+    --color-dark-blue: hsl(218, 44%, 22%);
+    --font-size-paragraph:15px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--color-grayish-blue);
+    background-color: var(--color-light-gray);
+}
+
+/* ============== MAIN ============== */
+
+
+/* ============== REUSABLE ============== */
+
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-colomn {
+    flex-direction: column;
+}
+
+.margin-y-1 {
+    margin: 1rem 0;
+}
+
+/* ============== REUSABLE ============== */
+
+
+/* ============== CARD ============== */
+
+.card {
+    background-color: var(--color-white);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.qr img {
+    width: 16rem;
+    border-radius: 10px;
+}
+
+.card .body {
+    max-width: 16rem;
+}
+
+.body .header {
+    font-weight: 700;
+    color: var(--color-dark-blue);
+    font-size: 1.3rem;
+}
+
+/* ============== CARD ============== */
+
+/* ============== ATTRIBUTION ============== */
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 1.5rem;
+}
+
+/* ============== ATTRIBUTION ============== */
