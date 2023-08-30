@@ -18,8 +18,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ![](./result/desktop-qr.png)
 
-![](./result/mobile-qr.png)
-
 ### Links
 
 - Live Site URL: [My Solution](https://qr-component-challenges.vercel.app/)
